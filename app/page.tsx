@@ -8,7 +8,7 @@ export default function Home() {
 
       {/* NAVBAR */}
       <nav className="flex justify-between items-center px-8 py-6 max-w-6xl mx-auto">
-        <h1 className="font-bold text-xl">Maulana.dev</h1>
+        <h1 className="font-bold text-xl">MuftiDev</h1>
 
         <div className="flex gap-6 text-gray-400">
           <a href="#about">About</a>
@@ -31,8 +31,12 @@ export default function Home() {
           Maulana Al Mufti
         </motion.h1>
 
-        <p className="text-xl text-gray-400 mb-8">
+        <p className="text-xl text-gray-400 mb-6">
           Full Stack Developer
+        </p>
+
+        <p className="text-gray-500 mb-10">
+          JavaScript • PHP • Python • Node.js
         </p>
 
         <div className="flex justify-center gap-4">
@@ -52,6 +56,7 @@ export default function Home() {
           </a>
 
         </div>
+
       </section>
 
 
@@ -59,13 +64,13 @@ export default function Home() {
       <section id="about" className="max-w-4xl mx-auto mt-32 px-6">
 
         <h2 className="text-3xl font-bold mb-6">
-          About
+          About Me
         </h2>
 
         <p className="text-gray-400 leading-relaxed">
-          Saya adalah Full Stack Developer yang fokus membangun aplikasi web modern.
-          Tech stack utama saya adalah React, Next.js, Node.js dan Laravel.
-          Saya senang membuat produk digital yang cepat, scalable dan user friendly.
+          Saya adalah Full Stack Developer yang berpengalaman membangun aplikasi web modern 
+          menggunakan JavaScript, React, Next.js, PHP, dan Python. 
+          Saya fokus pada pembuatan sistem yang scalable, performa tinggi, dan mudah digunakan.
         </p>
 
       </section>
@@ -85,14 +90,16 @@ export default function Home() {
             "React",
             "Next.js",
             "Node.js",
-            "Laravel",
-            "TailwindCSS",
+            "PHP",
+            "Python",
+            "MySQL",
             "PostgreSQL",
+            "TailwindCSS",
             "Git"
           ].map((tech)=>(
             <div
               key={tech}
-              className="bg-gray-900 p-4 rounded-lg text-center"
+              className="bg-gray-900 p-4 rounded-lg text-center hover:scale-105 transition"
             >
               {tech}
             </div>
@@ -113,23 +120,32 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-6">
 
           <div className="bg-gray-900 p-6 rounded-lg">
-            <h3 className="font-semibold mb-2">AI Tools</h3>
+            <h3 className="font-semibold mb-2">
+              AI Tools Platform
+            </h3>
+
             <p className="text-gray-400 text-sm">
-              Website kumpulan tools AI untuk produktivitas developer.
+              Platform kumpulan tools AI untuk meningkatkan produktivitas developer.
             </p>
           </div>
 
           <div className="bg-gray-900 p-6 rounded-lg">
-            <h3 className="font-semibold mb-2">Developer Portfolio</h3>
+            <h3 className="font-semibold mb-2">
+              Developer Portfolio
+            </h3>
+
             <p className="text-gray-400 text-sm">
-              Portfolio modern dengan Next.js dan Tailwind.
+              Portfolio modern menggunakan Next.js dan TailwindCSS.
             </p>
           </div>
 
           <div className="bg-gray-900 p-6 rounded-lg">
-            <h3 className="font-semibold mb-2">Admin Dashboard</h3>
+            <h3 className="font-semibold mb-2">
+              Admin Dashboard
+            </h3>
+
             <p className="text-gray-400 text-sm">
-              Dashboard analytics untuk manajemen data.
+              Dashboard analytics untuk manajemen data dan monitoring sistem.
             </p>
           </div>
 
@@ -151,7 +167,9 @@ export default function Home() {
 
         <div className="flex justify-center gap-6">
 
-          <a href="mailto:maulana3al0mufti@gmail.com">Email</a>
+          <a href="mailto:maulana3al0mufti@gmail.com">
+            Email
+          </a>
 
           <a href="https://wa.me/6282218292014">
             WhatsApp
