@@ -8,7 +8,7 @@ export default function Home() {
 
       {/* NAVBAR */}
       <nav className="flex justify-between items-center px-8 py-6 max-w-6xl mx-auto">
-        <h1 className="font-bold text-xl">MuftiDev</h1>
+        <h1 className="font-bold text-xl">Tocha-Dev</h1>
 
         <div className="flex gap-6 text-gray-400">
           <a href="#about">About</a>
